@@ -1,8 +1,8 @@
 import io, json, os, time
 import streamlit as st, streamlit.components.v1 as components
 from cvgen import ai as A, ats, render, theme
-from cvgen.demo import DEMO
-from cvgen.models import EMPTY, clean, completeness, new_item, with_ids
+from demo import DEMO
+from models import EMPTY, clean, completeness, new_item, with_ids
 
 st.set_page_config(page_title="CVForge AI", page_icon="◆", layout="wide")
 ss = st.session_state
